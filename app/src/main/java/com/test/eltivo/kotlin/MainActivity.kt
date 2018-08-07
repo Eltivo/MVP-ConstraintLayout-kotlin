@@ -60,8 +60,5 @@ class MainActivity : AppCompatActivity(), IUserView, View.OnClickListener {
             R.id.button2 -> mUserPresenter?.loadUser(getID())
         }
     }
-
-    fun sun(a: Int, b: Int): Int {
-        return a + b;
-    }
+    
 }
